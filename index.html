@@ -18,9 +18,42 @@
 
 	<style>
 
- .social  a svg {
+.social  a svg {
       width: 30px;
       fill: #91929a;
+    }
+    /* --- CSS ADDED FOR TABLE VISUALS --- */
+    table {
+      width: 100%; 
+      border-collapse: collapse; 
+    }
+    
+    /* Style all header cells (th) */
+    table th {
+      background-color: #e0e0e0; 
+      color: #333; 
+      text-align: center; 
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    
+    /* Style data cells (td) */
+    table td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    /* Color the top row (Sold Properties and Average Price) */
+    #h-sold, #h-price {
+      background-color: #cccccc; 
+      font-weight: bold;
+    }
+
+    /* Color the year headers */
+    #h-year, #y-2021, #y-2022 {
+      background-color: #f0f0f0; 
+      font-weight: bold;
     }
 	</style>
 </head>
